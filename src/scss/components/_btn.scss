@@ -1,0 +1,28 @@
+.btn {
+  border: 2px solid #D5621D;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  font-family: 'GothamPro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.6px 18.5px;
+
+
+  &:hover {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+  }
+  @include width1080 {
+    font-size: 12px;
+    line-height: 130%;
+  }
+}
+

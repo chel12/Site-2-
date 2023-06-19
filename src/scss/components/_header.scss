@@ -1,0 +1,33 @@
+.header {
+  margin-top: 45px;
+  margin-bottom: 53px;
+
+  &__container {
+    @include flex_all_sb;
+    max-width: 1305px;
+
+  }
+
+  &--poster {}
+}
+
+.logo {
+  margin: 0 10px;
+}
+
+.header-booking-btns {
+  &__btn {
+    padding: 15px 30px;
+  }
+
+  &__link {
+    color: var(--light-color);
+    font-family: 'Stolzl', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}

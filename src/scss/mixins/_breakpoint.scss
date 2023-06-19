@@ -1,0 +1,36 @@
+/* stylelint-disable */
+@mixin width430 {
+  @media (max-width: (430px)) {
+    @content;
+  }
+}
+
+@mixin width900 {
+  @media (max-width: (900px)) {
+    @content;
+  }
+}
+
+@mixin width1080 {
+  @media (max-width: (1080px)) {
+    @content;
+  }
+}
+
+@mixin width1160 {
+  @media (max-width: (1160px)) {
+    @content;
+  }
+}
+
+@mixin width1230 {
+  @media (max-width: (1230px)) {
+    @content;
+  }
+}
+
+@mixin width1250 {
+  @media (max-width: (1250px)) {
+    @content;
+  }
+}

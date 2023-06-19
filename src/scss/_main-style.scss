@@ -1,0 +1,73 @@
+.title {
+  font-family: "GothamPro", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #210E09;
+  border-radius: 5px;
+  background-color: var(--light-color);
+  padding: 10px 20px;
+
+  @include width1160 {
+    font-size: 13px;
+    line-height: 125%;
+  }
+
+  @include width1080 {
+    font-size: 12px;
+  }
+}
+
+.title-mid {}
+
+.sub-title {
+  font-family: "GothamPro", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  @include width1160 {
+    font-size: 30px;
+    line-height: 130%;
+  }
+
+  @include width1080 {
+    font-size: 20px;
+  }
+}
+
+.sub-title-mid {
+  margin-top: 40px;
+
+  @include width1230 {
+    margin-top: 20px;
+  }
+}
+
+
+a {
+  text-decoration: none;
+  font-family: "GothamPro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+li a {
+  transition: all 0.4s ease-in-out;
+}
